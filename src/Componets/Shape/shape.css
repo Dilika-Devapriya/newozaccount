@@ -1,0 +1,15 @@
+.shape{
+    width: 100%;
+    min-height: 50vh;
+    background: url(../../assets/shape1.svg);
+    background-position: center;
+    background-size: cover;
+    display: flex;  
+}
+
+.shpe-text{
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+}

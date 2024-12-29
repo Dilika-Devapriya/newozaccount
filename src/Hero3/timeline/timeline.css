@@ -1,0 +1,202 @@
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+    
+}
+
+.time{
+    width: 100%;
+    min-height: 65vh;
+    background: linear-gradient(80deg,  rgba(255, 123, 0, 0.7),rgb(255, 255, 255, 0.7)),
+        url(../../assets/person-office-analyzing-checking-finance-graphs.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;  
+}
+
+.com{
+    padding: 10px 10px;
+    position: relative;
+    width: 100%;
+    animation: movedown 1s linear forwards;
+    opacity: 0;
+}
+
+@keyframes movedown{
+    s{
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.com:nth-child(1){
+    animation-delay: 0s;
+}
+
+.com:nth-child(2){
+    animation-delay: 1s;
+}
+
+.com:nth-child(3){
+    animation-delay: 2s;
+}
+
+.com:nth-child(4){
+    animation-delay: 3s;
+}
+
+.com:nth-child(5){
+    animation-delay: 4s;
+}
+
+.timeline h2 {
+    font-size: 20px;
+    color: #FE6600;   
+}
+
+.timeline p{
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.timeline h3{
+    font-size: 20px;
+    color: #FE6600;   
+    padding-bottom: 10px;
+}
+
+.list{
+    font-size: 15px;
+    padding-left: 30px;
+    line-height: 20px;
+}
+
+.timeline-box{
+    padding: 20px 30px;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left-com{
+    left:0;
+}
+
+.rigth-com{
+    left: 20%;
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #FE6600;
+    top: 0;
+    left: 31px;
+    margin-left: -3px;
+    z-index: -1;
+    animation: moveline 6s linear forwards;
+    
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #FE6600;
+    top: 0;
+    right: -30px;
+    margin-left: -3px;
+    z-index: -1;
+    animation: moveline 6s linear forwards;
+    
+}
+
+@keyframes moveline{
+    0%{
+        height: 0;
+    }
+
+    100%{
+        height: 100%;
+    }
+}
+
+.left-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #FE6600;
+    right: -10px;
+}
+
+.rigth-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid orangered;
+    left: -10px;
+}
+
+@media screen and (max-width:600px){
+    .timeline{
+        margin: 50px auto;
+    }
+    .timeline::after{
+        left: 31px;
+    }
+
+    .com{
+        width: 500px;
+        padding-left: 10px;
+        padding-right: 25px;
+    }
+
+    .timeline-box h2{
+        font-size: 40px;
+    }
+
+    .timeline-box p{
+        font-size: 23px;
+        line-height: 35px;
+    }
+
+    .timeline-box ul li{
+        font-size: 23px;
+        line-height: 35PX;
+        padding: 5px 0;
+    }
+
+    .timeline-box h3{
+        font-size: 35px;
+        padding: 20px 0;
+    }
+
+    .rigth-com{
+        left:0;
+    }
+
+    .left-container-arrow .rigth-container-arrow{
+        border-right: 15px solid #FE6600;
+        border-left: 0;
+        left:-15px;
+
+    }
+}

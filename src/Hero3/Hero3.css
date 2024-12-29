@@ -1,0 +1,53 @@
+.hero3{
+    width: 100%;
+    min-height: 100vh;
+    background: url(../../src/assets/hero2.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    padding-top: 20%;
+
+}
+
+.hero3-text{
+    color: aliceblue;
+    
+}
+h1{
+    font-size: 54px;
+    font-weight: 300;
+}
+.text3{
+    color: #FE6600;
+}
+.hero3-text p{
+    font-size: 25px;
+}
+
+.parg{
+    padding-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .hero3-text h1 {
+        font-size: 50px;
+        margin-right: 100px; /* Adjust font size for smaller screens */
+    }
+
+    .hero3-text p {
+        font-size: 20px;
+        margin-right: 100px; /* Reduce paragraph font size */
+    }
+
+    .hero3 {
+        padding-top: 50%; /* Adjust top padding */
+        justify-content:center; /* Center content for smaller screens */
+        text-align:left; /* Center-align text */
+        width: 600px;
+        min-height: 80vh;
+        background-size: cover;
+        display: flex;
+    }
+}

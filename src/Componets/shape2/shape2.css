@@ -1,0 +1,57 @@
+.shape2 {
+    width: 100%;
+    min-height: 70vh;
+    background: url(../../assets/shape2.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .shape2 .container {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .shape2 p {
+    font-size: 40px;
+    margin-top: 150px;
+    line-height: 2;
+  }
+  
+  .contactus {
+    display: inline-block;
+    color: #ffffff;
+    background: transparent;
+    padding: 12px 70px;
+    font-size: 18px;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .contactus:hover {
+    color: #ff6600;
+    background-color: #ffffff;
+  }
+
+  @media screen and (max-width:600px){
+    .shape2 {
+      min-height: 50vh;
+      padding: 20px;
+      width: 600px;
+  }
+
+  .shape2 p {
+      font-size: 24px;
+      margin-top: 100px;
+      line-height: 1.5;
+  }
+
+  .contactus {
+      padding: 10px 50px;
+      font-size: 16px;
+  }
+
+  }

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+}
+
+
+
+body{
+  background: #fff;
+}
+
+a{
+  text-decoration: none ;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+.container{
+  background: transparent;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  
+}
+
+.swiper_containe{
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+

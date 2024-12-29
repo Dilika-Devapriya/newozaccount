@@ -1,0 +1,66 @@
+.Section2{
+    width: 100%;
+    min-height: 100vh;
+    background: url(../../assets/pattern.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;    
+}
+
+.section2-text{
+    text-align: center;
+    line-height: 50px;
+}
+
+.section2-text h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #FE6600;
+}
+
+.section2-text p{
+    font-size: 20px;
+    
+}
+
+
+.swiper-slide {
+    width: auto; /* Allow the slide to take full width */
+    height: 100%; /* Full height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.swiper-slide img {
+  width: 80%; /* Ensure the images scale correctly */
+  height: auto;
+  object-fit: cover;
+  outline: none;
+  
+  
+}
+
+.swiper-slide {
+  width: 400px !important; /* Make slides wider */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-arrow {
+  color: #FE6600; /* Color of arrows */
+  font-size: 32px; /* Increase arrow size */
+}
+
+.swiper-pagination-bullet {
+  background-color: #FE6600 !important; /* Pagination dots color */
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #FE6600 !important; /* Navigation buttons */
+  font-size: 40px;
+}

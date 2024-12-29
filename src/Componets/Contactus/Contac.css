@@ -1,0 +1,69 @@
+.contact{
+    display: flex; /* To enable flexbox layout */
+    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 5px; /* Adds spacing between columns */
+    justify-content: space-between; /* Distributes columns evenly */
+}
+.contact-col{
+    flex: 1 1 calc(50% - 20px);
+    color: #676767;
+    margin: 40px 0;
+}
+
+.contact-col h2 {
+    color: #FE6600;
+    
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.contact-col p{
+    max-width: 500px;
+    list-style: 0.3;
+    font-size: 20px;
+    
+}
+
+.contact-col ul li {
+    display: flex;
+    align-items: center;
+    margin:20px 0;
+}
+
+.contact form input, .contact form textarea{
+    display: block;
+    width: 100%;
+    background: #fef7eb;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+
+.tn{
+    background: #FE6600;
+    color: #ffffff;
+    padding: 14px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    transition: all 0.3s ease;
+    
+}
+
+.tn:hover{
+    background: #f78d46;
+}
+
+.contact-col span{
+    display: block;
+    margin: 20px 0;
+}
+

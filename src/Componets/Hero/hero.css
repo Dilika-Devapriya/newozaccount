@@ -1,0 +1,44 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: url(../../assets/Design3.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    padding-top: 20%;
+
+}
+
+.hero-text{
+    color: aliceblue;
+    
+}
+h1{
+    font-size: 54px;
+    font-weight: 300;
+}
+.text1{
+    color: #FE6600;
+}
+p{
+    font-size: 32px;
+}
+
+@media (max-width: 600px) {
+    .hero-text h1 {
+        font-size: 80px; /* Adjust font size for smaller screens */
+    }
+
+    .hero-text p {
+        font-size: 25px; /* Reduce paragraph font size */
+    }
+
+    .hero {
+        padding-top: 50%; /* Adjust top padding */
+        justify-content:center; /* Center content for smaller screens */
+        text-align:left; /* Center-align text */
+        width: 600px;
+    }
+}

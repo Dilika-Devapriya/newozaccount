@@ -1,0 +1,79 @@
+.Whowe {
+    width: 100%;
+    min-height: 65vh;
+    background:
+        linear-gradient(80deg,  rgba(255, 123, 0, 0.7),rgba(4, 112, 71, 1)),
+        url(../../assets/person-office-analyzing-checking-finance-graphs.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.ourstory h2 {
+    color: rgb(255, 93, 12);
+    font-size: 50px;
+    padding-bottom: 10px;
+    
+}
+
+.cl {
+    flex-basis: 50%;
+}
+
+.ourstory {
+    padding: 30px;
+    margin: 20px;
+}
+
+.cl:nth-child(1) {
+    padding-right: 90px;
+}
+
+.cl:nth-child(2) {
+    padding-right: 70px;
+}
+
+.cl p {
+    font-size: 18px;
+    color: aliceblue;
+
+}
+
+.rw {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .Whowe {
+        flex-direction: column; /* Stack items vertically */
+        min-height: auto; /* Adjust height */
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        display: flex;
+    }
+
+    .cl {
+        flex-basis: 100%; /* Full width for mobile */
+        padding: 10px;/* Reduce padding */
+        text-align: center; /* Center text */
+    }
+
+    .Whowe h2 {
+        font-size: 35px; /* Adjust header size */
+    }
+
+    .cl p {
+        font-size: 16px; /* Adjust paragraph font size */
+    }
+    .ourstory{
+        margin: 10px;
+        padding: 10px 80px;
+    }
+}

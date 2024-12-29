@@ -1,0 +1,35 @@
+.sector{
+ margin: 100px auto;
+ margin-top: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 100%;
+}
+
+.sector-left{
+    flex-basis: 53%;
+}
+
+.sector-right{
+    flex-basis: 40%;
+}
+
+.image1{
+    border-radius: 10px;
+    width: 100%;
+}
+
+h2{
+    font-size: 35px;
+}
+.bold{
+    color: #FE6600;
+}
+h3{
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.details1{font-size: 18px;
+padding-top: 20px; line-height: 25px;}
