@@ -38,10 +38,10 @@ const Contact = () => {
           <p>Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and
             suggestions are important to us as we strive to provide exceptional service to our Finacial partner.</p>
           <ul>
-            <li><b>Contact us</b> - 0404281000</li>
+            <li><b>Contact No.</b> - 02 7228 7000 / 0404 281 000</li>
             <li><b>Emial </b> - info@ozaccountants.com.au</li>
             <li><b>Postal address </b> - PO Box 3440 Parramatta NSW 2124</li>
-            <li><b>Office address </b> - 2/164-170 Great western Highway Westmead NSW 2145</li>
+            <li><b>Office address </b> -   2/164, Great western Highway, Westmead, NSW 2145</li>
           </ul>
         </div>
         <div className='contact-col'>
