@@ -20,7 +20,7 @@ const footer = () => {
             <p className='abt1'>At OzAccountants, our team of experts ensure financial prosperity in terms of accounting, taxation and
               advisory services</p>
             <div className='details'>
-              <p><b>Contact us -</b>  0404281000</p>
+              <p><b>Contact No. -</b>  02 7228 7000 / 0404 281 000</p>
               <p><b>Emial -</b> info@ozaccountants.com.au</p>
               <p><b>Postal address -</b> PO Box 3440 Parramatta NSW 2124</p>
               <p><b>Office address      -</b>  64 Great western Highway Westmead NSW 2145</p>
