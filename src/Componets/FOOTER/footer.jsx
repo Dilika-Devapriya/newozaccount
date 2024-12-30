@@ -23,7 +23,7 @@ const footer = () => {
               <p><b>Contact No. -</b>  02 7228 7000 / 0404 281 000</p>
               <p><b>Emial -</b> info@ozaccountants.com.au</p>
               <p><b>Postal address -</b> PO Box 3440 Parramatta NSW 2124</p>
-              <p><b>Office address      -</b>  64 Great western Highway Westmead NSW 2145</p>
+              <p><b>Office address      -</b>   2/164, Great western Highway, Westmead, NSW 2145</p>
             </div>
 
             <img src={logos}  className='logoss'/>
